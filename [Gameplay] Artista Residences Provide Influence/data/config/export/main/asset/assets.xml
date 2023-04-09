@@ -4,14 +4,14 @@
   Name: Artista Residences Provide Influence
   Author: adjagu
   License: GPL-2.0-only
-  Version: 0.1.0
+  Version: 0.1.1
 
   Please refer to README.txt for more information.
 -->
 
 <ModOps>
 
-  <ModOp GUID="5405" Path="/Values/InfluenceSource" Type="add">
+  <ModOp GUID="5405" Path="/Values/InfluenceSource" Type="merge">
     <InfluenceAmount>3</InfluenceAmount>
     <InfluenceSource>Culture</InfluenceSource>
   </ModOp>
