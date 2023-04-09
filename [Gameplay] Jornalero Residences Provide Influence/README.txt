@@ -14,7 +14,7 @@ To change the amount of influence jornalero residences provide alter
 ---------------------------------------
 Author: adjagu
 License: GPL-2.0-only
-Version: 0.1.0
+Version: 0.1.1
 ---------------------------------------
 
 
@@ -84,7 +84,7 @@ one (1) influence. This is shown in the following code:
 
 <ModOps>
 
-  <ModOp GUID="101254" Path="/Values/InfluenceSource" Type="add">
+  <ModOp GUID="101254" Path="/Values/InfluenceSource" Type="merge">
     <InfluenceAmount>1</InfluenceAmount>
     <InfluenceSource>Culture</InfluenceSource>
   </ModOp>
@@ -100,7 +100,7 @@ influence each you could use the following code:
 
 <ModOps>
 
-  <ModOp GUID="101254" Path="/Values/InfluenceSource" Type="add">
+  <ModOp GUID="101254" Path="/Values/InfluenceSource" Type="merge">
     <InfluenceAmount>100</InfluenceAmount>
     <InfluenceSource>Culture</InfluenceSource>
   </ModOp>

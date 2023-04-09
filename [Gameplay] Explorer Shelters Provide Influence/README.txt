@@ -14,7 +14,7 @@ To change the amount of influence explorer shelters provide alter
 ---------------------------------------
 Author: adjagu
 License: GPL-2.0-only
-Version: 0.1.0
+Version: 0.1.1
 ---------------------------------------
 
 
@@ -84,7 +84,7 @@ influence. This is shown in the following code:
 
 <ModOps>
 
-  <ModOp GUID="112091" Path="/Values" Type="add">
+  <ModOp GUID="112091" Path="/Values" Type="merge">
     <InfluenceSource>
       <InfluenceAmount>1</InfluenceAmount>
       <InfluenceSource>Culture</InfluenceSource>
@@ -102,7 +102,7 @@ influence each you could use the following code:
 
 <ModOps>
 
-  <ModOp GUID="112091" Path="/Values" Type="add">
+  <ModOp GUID="112091" Path="/Values" Type="merge">
     <InfluenceSource>
       <InfluenceAmount>100</InfluenceAmount>
       <InfluenceSource>Culture</InfluenceSource>
