@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  Name: Shepherd Residences Provide Influence
+  Author: adjagu
+  License: GPL-2.0-only
+  Version: 0.1.0
+
+  Please refer to README.txt for more information.
+-->
+
+<ModOps>
+
+  <ModOp GUID="114436" Path="/Values/InfluenceSource" Type="add">
+    <InfluenceAmount>1</InfluenceAmount>
+    <InfluenceSource>Culture</InfluenceSource>
+  </ModOp>
+
+</ModOps>
