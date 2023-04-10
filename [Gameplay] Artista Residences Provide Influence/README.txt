@@ -77,7 +77,7 @@ How to Edit This Mod
 -------------------------------------------------------------------------------
 
 By default this modification enables each artista residence to produce
-two (3) influence. This is shown in the following code:
+three (3) influence. This is shown in the following code:
 
 ---------------------------------------
 <?xml version="1.0" encoding="utf-8"?>
