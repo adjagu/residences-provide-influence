@@ -12,9 +12,10 @@ To change the amount of influence jornalero residences provide alter
 <InfluenceAmount>'s number.
 
 ---------------------------------------
-Author: adjagu
+Author : adjagu
 License: GPL-2.0-only
-Version: 0.1.1
+Version: 0.1.2
+Source : https://github.com/adjagu/residences-provide-influence
 ---------------------------------------
 
 
@@ -41,8 +42,8 @@ Linux:
 How to Install This Mod
 -------------------------------------------------------------------------------
 
-Copy "[Gameplay] Jornalero Residences Provide Influence" into Anno 1800's
-mods directory.
+Copy "[Gameplay] Jornalero Residences Provide Influence" folder into
+Anno 1800's "mods" directory.
 
 
 -------------------------------------------------------------------------------
