@@ -14,7 +14,7 @@ To change the amount of influence worker residences provide alter
 ---------------------------------------
 Author : adjagu
 License: GPL-2.0-only
-Version: 0.1.2
+Version: 0.1.3
 Source : https://github.com/adjagu/residences-provide-influence
 ---------------------------------------
 
@@ -85,7 +85,7 @@ two (2) influence. This is shown in the following code:
 
 <ModOps>
 
-  <ModOp GUID="1010344" Path="/Values/InfluenceSource" Type="merge">
+  <ModOp GUID="1010344" Path="/Values/InfluenceSource" Type="Merge">
     <InfluenceAmount>2</InfluenceAmount>
     <InfluenceSource>Culture</InfluenceSource>
   </ModOp>
@@ -101,7 +101,7 @@ influence each you could use the following code:
 
 <ModOps>
 
-  <ModOp GUID="1010344" Path="/Values/InfluenceSource" Type="merge">
+  <ModOp GUID="1010344" Path="/Values/InfluenceSource" Type="Merge">
     <InfluenceAmount>100</InfluenceAmount>
     <InfluenceSource>Culture</InfluenceSource>
   </ModOp>

@@ -1,19 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <!--
+
   Name   : Worker Residences Provide Influence
   Author : adjagu
   License: GPL-2.0-only
-  Version: 0.1.2
+  Version: 0.1.3
 
   Please refer to README.txt for more information.
+
 -->
 
 <ModOps>
 
-  <ModOp GUID="1010344" Path="/Values/InfluenceSource" Type="merge">
+  <!--
+
+    Worker Residence (Arbeiterhaus)
+
+  -->
+  <ModOp GUID="1010344" Path="/Values/InfluenceSource" Type="Merge"
+    ModOpID="WorkerInfluenceAmount"
+  >
     <InfluenceAmount>2</InfluenceAmount>
     <InfluenceSource>Culture</InfluenceSource>
   </ModOp>
+
+  <!--
+
+    iModYourAnno Tweaking : Title
+
+  -->
+  <ImyaTweaks Title="Worker" />
+
+  <!--
+
+    iModYourAnno Tweaking : Tweak
+    Worker Residence (Arbeiterhaus)
+
+  -->
+  <ImyaExpose
+    Path="self::InfluenceAmount"
+    ModOpID="WorkerInfluenceAmount"
+    ExposeID="Worker"
+    Description="Influence per worker residence."
+    Kind="Slider"
+  >
+    <SliderDefinition Min="0" Max="100" Stepping="1" />
+  </ImyaExpose>
+
+  <!--
+
+    How about a little space for the closing tag?
+
+  -->
 
 </ModOps>
