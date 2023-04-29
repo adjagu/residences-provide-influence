@@ -1,19 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <!--
+
   Name   : Obrero Residences Provide Influence
   Author : adjagu
   License: GPL-2.0-only
-  Version: 0.1.2
+  Version: 0.1.3
 
   Please refer to README.txt for more information.
+
 -->
 
 <ModOps>
 
-  <ModOp GUID="101255" Path="/Values/InfluenceSource" Type="merge">
+  <!--
+
+    Obrero Residence (Obrero-​Haus)
+
+  -->
+  <ModOp GUID="101255" Path="/Values/InfluenceSource" Type="Merge"
+    ModOpID="ObreroInfluenceAmount"
+  >
     <InfluenceAmount>2</InfluenceAmount>
     <InfluenceSource>Culture</InfluenceSource>
   </ModOp>
+
+  <!--
+
+    iModYourAnno Tweaking : Title
+
+  -->
+  <ImyaTweaks Title="Obrero" />
+
+  <!--
+
+    iModYourAnno Tweaking : Tweak
+    Obrero Residence (Obrero-​Haus)
+
+  -->
+  <ImyaExpose
+    Path="self::InfluenceAmount"
+    ModOpID="ObreroInfluenceAmount"
+    ExposeID="Obrero"
+    Description="Influence per obrero residence."
+    Kind="Slider"
+  >
+    <SliderDefinition Min="0" Max="100" Stepping="1" />
+  </ImyaExpose>
+
+  <!--
+
+    How about a little space for the closing tag?
+
+  -->
 
 </ModOps>

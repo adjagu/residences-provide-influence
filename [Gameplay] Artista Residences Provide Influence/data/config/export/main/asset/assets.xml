@@ -1,19 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <!--
+
   Name   : Artista Residences Provide Influence
   Author : adjagu
   License: GPL-2.0-only
-  Version: 0.1.2
+  Version: 0.1.3
 
   Please refer to README.txt for more information.
+
 -->
 
 <ModOps>
 
-  <ModOp GUID="5405" Path="/Values/InfluenceSource" Type="merge">
+  <!--
+
+    Artista Residence (Artista-Wohnung)
+
+  -->
+  <ModOp GUID="5405" Path="/Values/InfluenceSource" Type="Merge"
+    ModOpID="ArtistaInfluenceAmount"
+  >
     <InfluenceAmount>3</InfluenceAmount>
     <InfluenceSource>Culture</InfluenceSource>
   </ModOp>
+
+  <!--
+
+    iModYourAnno Tweaking : Title
+
+  -->
+  <ImyaTweaks Title="Artista" />
+
+  <!--
+
+    iModYourAnno Tweaking : Tweak
+    Artista Residence (Artista-Wohnung)
+
+  -->
+  <ImyaExpose
+    Path="self::InfluenceAmount"
+    ModOpID="ArtistaInfluenceAmount"
+    ExposeID="Artista"
+    Description="Influence per artista residence."
+    Kind="Slider"
+  >
+    <SliderDefinition Min="0" Max="100" Stepping="1" />
+  </ImyaExpose>
+
+  <!--
+
+    How about a little space for the closing tag?
+
+  -->
 
 </ModOps>

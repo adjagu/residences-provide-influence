@@ -1,5 +1,5 @@
 ﻿{
-  "Version": "0.1.2",
+  "Version": "0.1.3",
   "License": "GPL-2.0-only",
   "ModID": "HudsonsBayCompany_ShepherdResidencesProvideInfluence",
   "IncompatibleIds": null,
@@ -44,7 +44,12 @@
     "Taiwanese": null
   },
   "KnownIssues": null,
-  "DLCDependencies": null,
+  "DLCDependencies": [
+    {
+      "DLC": "LandOfLions",
+      "Dependant": "required"
+    }
+  ],
   "CreatorName": "adjagu",
   "CreatorContact": null,
   "Image": null
