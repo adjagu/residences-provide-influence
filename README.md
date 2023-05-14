@@ -66,3 +66,8 @@ iModYourAnno does not (yet) support mods that are installed as archive files nor
 
 - [0.1.0](https://github.com/adjagu/residences-provide-influence/releases/tag/0.1.0)
   - Initial release.
+
+## Other Mods
+
+- [Harbormaster](https://github.com/adjagu/harbormaster)
+- [Harbor Warehouse](https://github.com/adjagu/harbor-warehouse)
