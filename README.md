@@ -71,3 +71,4 @@ iModYourAnno does not (yet) support mods that are installed as archive files nor
 
 - [Harbormaster](https://github.com/adjagu/harbormaster)
 - [Harbor Warehouse](https://github.com/adjagu/harbor-warehouse)
+- [Warehouse](https://github.com/adjagu/warehouse)
