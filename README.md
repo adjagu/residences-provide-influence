@@ -2,7 +2,7 @@
 
 A collection of mods for Anno 1800 that add influence production to residence buildings which previously did not produce influence. Version [0.1.3](https://github.com/adjagu/residences-provide-influence/releases/tag/0.1.3) added support for [iModYourAnno](#imodyouranno) tweaking.
 
-All mods have been tested on and work with [Anno 1800 v17.0.1222998](https://anno-union.com/updates/anno-1800-pc-game-update-17/).
+All mods have been tested on and work with [Anno 1800 v17.1.1232159]([https://anno-union.com/updates/anno-1800-pc-game-update-17/](https://anno-union.com/updates/anno-1800-pc-game-update-17-1/)).
 
 If you would like to manage and/or tweak these mods with iModYourAnno please refer to the steps outlined in the [iModYourAnno Install](#imodyouranno-install) section.
 
