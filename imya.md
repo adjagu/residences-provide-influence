@@ -4,7 +4,6 @@ A collection of mods for Anno 1800 that add influence production to residence bu
 
 All mods have been tested on and work with Anno 1800 v17.1.1232159.
 
-
 ## Influence Production Levels
 
 1. Influence production per residence +1
